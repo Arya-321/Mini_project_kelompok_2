@@ -2,7 +2,7 @@
 2.Judul : Sitem informasi objek wisata berbasis web 
 3.Skenario :
 - User : Admin, Petugas dan Pengunjung
-- Admin menginputkan data objek wisata di beberapa seperti contoh nya : data objek wisata dikabupaten purwokerto, data objek wisata diprovinsi lampung
+- Admin menginputkan data objek wisata di beberapa seperti contoh nya : data objek wisata dikabupaten purwokerto, data objek wisata diprovinsi lampung, dan seterusnya
 - Pengunjung mencari Tempat wisata yang di inginkan , sistem akan menampilkan daftar tempat wisata
 
 4.Fitur :
