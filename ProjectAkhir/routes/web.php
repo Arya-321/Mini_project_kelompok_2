@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PengunjungController;
+use App\Http\Controllers\UlasanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('dashboard',[DashboardController::class, 'index'])->name('index');
+Route::get('/pengunjung', [PengunjungController::class, 'index']);
+Route::get('/ulasan', [UlasanController::class, 'index']);
